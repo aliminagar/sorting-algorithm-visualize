@@ -1,70 +1,125 @@
-# Getting Started with Create React App
+# Sorting Algorithm Visualizer 🎨
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+An interactive web application that visualizes various sorting algorithms in real-time. Watch how different algorithms sort data with animated visual representations.
 
-## Available Scripts
+![Sorting Visualizer Demo](./demo-screenshot.png)
 
-In the project directory, you can run:
+## 🚀 Features
 
-### `npm start`
+- **Multiple Sorting Algorithms**: Visualize different sorting algorithms including:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+  - Bubble Sort
+  - Quick Sort
+  - Merge Sort
+  - Insertion Sort
+  - Selection Sort
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Adjustable Array Size**: Change the number of elements to sort (10-1000)
+- **Random Sample Generation**: Generate new random arrays with one click
+- **Real-time Visualization**: Watch the sorting process step-by-step
+- **Responsive Design**: Works on desktop and mobile devices
+- **Color-coded Animations**: Different colors represent different stages of sorting
 
-### `npm test`
+## 🛠️ Technologies Used
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **React.js** - Frontend framework
+- **JavaScript (ES6+)** - Programming language
+- **HTML5 & CSS3** - Structure and styling
+- **Node.js & npm** - Package management
 
-### `npm run build`
+## 📦 Installation
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. Clone the repository:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```bash
+git clone https://github.com/aliminagar/sorting-algorithm-visualizer.git
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+2. Navigate to the project directory:
 
-### `npm run eject`
+```bash
+cd sorting-algorithm-visualizer
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+3. Install dependencies:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```bash
+npm install
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+4. Start the development server:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```bash
+npm start
+```
 
-## Learn More
+5. Open [http://localhost:3000](http://localhost:3000) in your browser
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 💻 Usage
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+1. Select a sorting algorithm from the dropdown menu
+2. Adjust the array size using the number input (default: 500)
+3. Click "Generate Sample" to create a new random array
+4. Click "Sort" to watch the algorithm visualize the sorting process
+5. Experiment with different algorithms and array sizes to compare performance
 
-### Code Splitting
+## 🎯 Learning Objectives
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+This project helped me understand:
 
-### Analyzing the Bundle Size
+- How different sorting algorithms work under the hood
+- Algorithm time complexity (O(n²), O(n log n), etc.)
+- React component architecture and state management
+- Asynchronous JavaScript and animation timing
+- Breaking down complex problems into smaller components
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## 🔮 Future Improvements
 
-### Making a Progressive Web App
+- [ ] Add algorithm speed control (slow, medium, fast)
+- [ ] Display time and space complexity information
+- [ ] Add comparison counter to show number of comparisons
+- [ ] Include more algorithms (Heap Sort, Radix Sort, etc.)
+- [ ] Add dark/light theme toggle
+- [ ] Show algorithm pseudocode during visualization
+- [ ] Add sound effects for each comparison/swap
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## 📊 Algorithm Complexity
 
-### Advanced Configuration
+| Algorithm      | Best Case  | Average Case | Worst Case | Space Complexity |
+| -------------- | ---------- | ------------ | ---------- | ---------------- |
+| Bubble Sort    | O(n)       | O(n²)        | O(n²)      | O(1)             |
+| Quick Sort     | O(n log n) | O(n log n)   | O(n²)      | O(log n)         |
+| Merge Sort     | O(n log n) | O(n log n)   | O(n log n) | O(n)             |
+| Insertion Sort | O(n)       | O(n²)        | O(n²)      | O(1)             |
+| Selection Sort | O(n²)      | O(n²)        | O(n²)      | O(1)             |
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## 🤝 Contributing
 
-### Deployment
+Contributions are welcome! Feel free to:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+1. Fork the project
+2. Create a feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 
-### `npm run build` fails to minify
+## 📝 License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 👤 Author
+
+**Alireza Minagar**
+
+- GitHub: [@aliminagar](https://github.com/aliminagar)
+- LinkedIn: [Alireza Minagar](https://www.linkedin.com/in/alireza-minagar-b450aa173)
+- Portfolio: [alirezaminagar-md.netlify.app](https://alirezaminagar-md.netlify.app/)
+
+## 🙏 Acknowledgments
+
+- Thanks to the React community for excellent documentation
+- Built as a learning project to deepen understanding of algorithms and data structures
+
+---
+
+⭐ If you found this project helpful, please consider giving it a star!
