@@ -2,7 +2,7 @@
 
 An interactive web application that visualizes various sorting algorithms in real-time. Watch how different algorithms sort data with animated visual representations.
 
-![Sorting Visualizer Demo](./demo-screenshot.png)
+![Sorting Visualizer Demo](./ppt431E.pptm%20-%20AutoRecovered.jpg)
 
 ## 🚀 Features
 
